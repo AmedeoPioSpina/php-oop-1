@@ -17,5 +17,11 @@
             return $this->name;
         }
     }
+
+    $newMovie = new Movie("Transformers","Michael Bay","21 giugno 2007","IT");
+    $otherNewMovie = new Movie("Spider-Man","Sam Raimi","7 giugno 2002","IT");
+
+    echo $newMovie->getName() . "</br>";
+    echo $otherNewMovie->getName();
 ?>
 
